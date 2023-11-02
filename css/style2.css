@@ -1,0 +1,81 @@
+#curiosidades{
+    width: 90%;
+    margin: 0 4.5% ;
+    display: block;
+    overflow-y: hidden; 
+}
+#curiosidades .curiosidades2{
+    display: flex;
+    background-color: rgb(37, 8, 8);
+    width: 250%;
+    height: 300px;
+    padding: -1 20px;
+    overflow-y: hidden;
+}
+#curiosidades .curiosidades2 .curiosidades3{
+        width: 250%;
+        height: 100%;
+        padding: 10px 20px;
+    }
+.curiosidades3 a{
+    width: 100%;
+    height: 90%;
+}
+.curiosidades3 a img{ 
+    width: 100%;
+    border: 2px solid blue;
+    height: 100%;  
+}
+.curiosidades3 a img:hover {
+    border: 2px solid red;
+     }
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+#curiosidades::-webkit-scrollbar {
+    display: none;
+}
+footer{
+    text-align: center;
+}
+.boton{
+    background-color: transparent;
+}
+.boton button{
+    border: none;
+    background-color: transparent; 
+}
+.boton button img{
+    background: transparent;
+}
+body::after {   
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+@media only screen and (max-width: 600px){
+#curiosidades{
+    margin:0 5.5%;
+    
+}
+#curiosidades .curiosidades2{
+    height: 148px;
+    padding: 0 2px;
+}
+.subtitulo h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+footer{
+    width: 100%;
+    height: 50px;
+}
+}
