@@ -57,7 +57,7 @@ footer{
     header{
         display: block;
         width: 100%;
-        height: 2400px;
+        height: 2500px;
         margin: 0 0;
     }
     h3{
@@ -66,10 +66,10 @@ footer{
     }
     .informacion{
         width: 100%;
-        height: 1500px;
+        height: 70%
     }
     .enlaces{
-        height: 200px;
+        height: 30%;
         width: 100%;
     }
     footer{
