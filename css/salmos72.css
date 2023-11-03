@@ -1,0 +1,130 @@
+body{
+    background-color: beige;
+    height: 100%;
+}
+header{
+    position: relative;
+    width: 80%;
+    margin: 0 10%;
+   background-color: white;
+    height: 1700px;
+    display: flex;
+}
+.informacion{
+    width: 70%;
+    height: 500px; 
+}
+.informacion img{
+    width: 100%;
+    height: 400px;
+}
+.informacion h3{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+.informacion .h3a{   
+    font-size: 20px;
+}
+h4{
+    color: red;
+    
+    margin: 20px 5%;
+    width: 90%;
+    font-family: NotoSans,Arial,"Arial Unicode MS",sans-serif;
+}
+p{
+    margin: 0 5%;
+    width: 90%;
+    margin-top: 40px;
+    color: black;
+    font-family: NotoSans,Arial,"Arial Unicode MS",sans-serif;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+}
+.enlaces{
+    width: 30%;
+    height: 400px;
+    
+}
+
+@media only screen and (max-width: 600px){
+    header{
+        display: block;
+        width: 100%;
+        height: 2400px;
+        margin: 0 0;
+    }
+    h3{
+        font-size: 34px;
+        margin: 0 0;
+    }
+    .informacion{
+        width: 100%;
+        height: 1500px;
+    }
+    .enlaces{
+        height: 200px;
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        height: 50px;
+    }
+    @media (max-width: 600px) {
+        nav{
+            display:flex;
+            width: 100%;
+            height: 50px;
+        }
+        #caja{
+            width: 100%;
+            height: 100%;
+            display: flex;
+        }
+    #caja .perfil{
+        width: 20%;
+        height: 100%;
+    }
+    #caja .busqueda{
+    
+        width: 80%;
+        height: 100%;
+    }
+    .redes {
+        width: 100%;
+        height:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .redes a{
+        justify-content: center;
+        align-items: center;
+    }
+    .redes a img{
+        width: 50%;
+        height: 50%;
+        margin: 20% 25%;
+        align-items: center;
+    }
+    #caja .busqueda H1 {
+        margin: 0;
+        text-align: center;
+        overflow: auto; 
+        font-size: 1em;
+        position: absolute;
+    
+       }
+    
+     #carrusel{
+      height: 200px;
+      width: 100dvw;
+     }
+    }
